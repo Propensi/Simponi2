@@ -66,7 +66,7 @@
       <div class="row">
         <div class="col-xs-8">
              <div class="form-group">
-                            <div class="col-md-8 ">
+                            <div class="col-md-10 ">
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="remember"> Remember Me
@@ -94,11 +94,11 @@
 <!-- /.login-box -->
 
 
-<script src="{{ assets("/bower_components/adminlte/plugins/jQuery/jQuery-2.2.0.min.js") }}"></script>
+<script src="{{ asset("/bower_components/adminlte/plugins/jQuery/jQuery-2.2.0.min.js") }}"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="{{ assets("/bower_components/adminlte/bootstrap/js/bootstrap.min.js") }}"></script>
+<script src="{{ asset("/bower_components/adminlte/bootstrap/js/bootstrap.min.js") }}"></script>
 <!-- iCheck -->
-<script src="{{ assets("/bower_components/adminlte/plugins/iCheck/icheck.min.js") }}"></script>
+<script src="{{ asset("/bower_components/adminlte/plugins/iCheck/icheck.min.js") }}"></script>
 <script>
   $(function () {
     $('input').iCheck({
